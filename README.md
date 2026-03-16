@@ -1,0 +1,32 @@
+<h1>🌐 IP Info Tracker</h1>
+<p>
+  A simple web application that fetches and displays information about your public IP address using the IPInfo API.
+With just one click, users can view details such as their IP, domain, ISP, ASN, country, and continent.
+</p>
+
+<h2>🚀 Features</h2>
+<ul>
+<li>Fetches public IP information</li>
+<li>Displays Domain and ISP</li>
+<li>Shows ASN (Autonomous System Number)</li>
+<li>Displays Country and Country Code</li>
+<li>Displays Continent</li>
+<li>Simple and clean UI</li>
+<li>One-click IP tracking</li>
+</ul>
+
+<h2>🛠️ Technologies Used</h2>
+<ul>
+<li>HTML5 – Structure of the webpage</li>
+<li>CSS3 – Styling and layout</li>
+<li>JavaScript (Vanilla JS) – Fetch API and DOM manipulation</li>
+<li>IPInfo API – To retrieve IP related information</li>
+</ul>
+
+<h2>⚙️ How It Works</h2>
+<ol>
+  <li>The user clicks the "Track My IP" button.</li>
+  <li>JavaScript sends a request to the IPInfo API.</li>
+  <li>The API returns the IP information in JSON format.</li>
+  <li>The data is displayed dynamically on the webpage.</li>
+</ol>
