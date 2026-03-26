@@ -4,7 +4,7 @@
 let result = document.getElementById("get");
 let answer = document.getElementById("main");
 
-answer.hidden=true;
+answer.hidden=true; // Switch to hide the answer
 
 
 result.addEventListener("click", () =>{
@@ -19,7 +19,7 @@ fetch("https://v4.api.ipinfo.io/lite/me?token=91fc25b8c7a097")
   
     console.log(data);
 
-    answer.hidden=false;
+    answer.hidden=false; // Switch to show the answer
 
    let DOMAIN = data.as_domain;
    let ISP = data.as_name;
