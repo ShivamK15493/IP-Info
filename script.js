@@ -7,7 +7,7 @@ let answer = document.getElementById("main");
 answer.hidden=true; // Switch to hide the answer
 
 
-result.addEventListener("click", () =>{
+result.addEventListener("click", () =>{  
 
 fetch("https://v4.api.ipinfo.io/lite/me?token=91fc25b8c7a097")
 .then((res) =>{
@@ -21,14 +21,14 @@ fetch("https://v4.api.ipinfo.io/lite/me?token=91fc25b8c7a097")
 
     answer.hidden=false; // Switch to show the answer
 
-   let DOMAIN = data.as_domain;
-   let ISP = data.as_name;
-   let ASN = data.asn;
-   let COUNTRY = data.country;
-   let CountryCode = data.country_code;
-   let CONTINENT = data.continent;
-   let ContinentCode = data.continent_code;
-   let IP = data.ip;
+   let DOMAIN = data.as_domain;  // Assign domain
+   let ISP = data.as_name;    // Assign Isp
+   let ASN = data.asn;  // Assign ASN
+   let COUNTRY = data.country;  // Assign Country
+   let CountryCode = data.country_code; // Assign Country Code
+   let CONTINENT = data.continent;  // Assign Continent 
+   let ContinentCode = data.continent_code;  // Assign Continent Code
+   let IP = data.ip;  // Assign IP
 
    
 //    console.log(IP);
