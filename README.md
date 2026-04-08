@@ -1,8 +1,8 @@
 <h1>🌐 IP Info Tracker</h1>
 <p>
-  A simple web application that fetches and displays information about your public IP address using the IPInfo API.
-  With just one click, users can view details such as their IP, domain, ISP, ASN, country, and continent.
-  It provides a clean and responsive interface, making it easy for users to quickly access and understand their network information.
+ A simple web application that retrieves and displays information about a user's public IP address using the IPInfo API.
+With a single click, users can access details such as IP address, domain, ISP, ASN, country, and continent.
+The application features a clean, responsive interface, allowing users to quickly and easily understand their network information.
 </p>
 
 <h2>🚀 Features</h2>
