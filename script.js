@@ -30,15 +30,25 @@ fetch("https://v4.api.ipinfo.io/lite/me?token=91fc25b8c7a097")
    let ContinentCode = data.continent_code;  // Assign Continent Code
    let IP = data.ip;  // Assign IP
 
+   
+//    console.log(IP);
+//    console.log(DOMAIN);
+//    console.log(ISP);
+//    console.log(ASN);
+//    console.log(COUNTRY);
+//    console.log(CountryCode);
+//    console.log(CONTINENT);
+//    console.log(ContinentCode);
+
    answer.innerHTML=`
     <div id="ans">
-       <b>My IP:</b> ${IP} <br>     // Displays Ip
-       <b>Domain:</b> ${DOMAIN} <br>  // Displays Domain
-       <b>Domain Name:</b> ${ISP} <br> // Displays Domain name
-       <b>ASN:</b>  ${ASN}  <br>   // Displays Autonomous System Number 
-       <b>Country:</b> ${COUNTRY} <br>     //Displays Country
-       <b>Country Code:</b> ${CountryCode} <br>  //Displays Country Code
-       <b>Continent:</b>  ${CONTINENT} <br>  //Displays Countinent
+       <b>My IP:</b> ${IP} <br>     
+       <b>Domain:</b> ${DOMAIN} <br>  
+       <b>Domain Name:</b> ${ISP} <br> 
+       <b>ASN:</b>  ${ASN}  <br>    
+       <b>Country:</b> ${COUNTRY} <br>     
+       <b>Country Code:</b> ${CountryCode} <br>  
+       <b>Continent:</b>  ${CONTINENT} <br>  
         
     </div>
    `;
