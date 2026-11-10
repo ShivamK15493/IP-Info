@@ -30,16 +30,6 @@ fetch("https://v4.api.ipinfo.io/lite/me?token=91fc25b8c7a097")
    let ContinentCode = data.continent_code;  // Assign Continent Code
    let IP = data.ip;  // Assign IP
 
-   
-//    console.log(IP);
-//    console.log(DOMAIN);
-//    console.log(ISP);
-//    console.log(ASN);
-//    console.log(COUNTRY);
-//    console.log(CountryCode);
-//    console.log(CONTINENT);
-//    console.log(ContinentCode);
-
    answer.innerHTML=`
     <div id="ans">
        <b>My IP:</b> ${IP} <br>     // Displays Ip
